@@ -1,0 +1,6 @@
+Django==3.2.18 # latest LTS version
+requests==2.31.0
+fhir.resources==7.0.2
+celery==5.3.4
+django-celery-results==2.5.1
+sqlalchemy==2.0.21
