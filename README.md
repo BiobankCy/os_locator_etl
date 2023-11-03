@@ -54,3 +54,19 @@ unique biobank's requirements. We encourage you to reach out to
 us or actively contribute to the project if you require greater 
 flexibility or have specific needs. Your feedback and 
 involvement are highly valued.
+
+## Run
+
+1. Create a user for the ETL system. Run `python manage.py createsuperuser`
+and follow the instructions. Optionally, if you are missing Python dependencies, 
+run `pip install -r ./requirements.txt`.
+2. Run `./local_build_and_run.sh` (on a Linux-based OS). Install [Docker](https://www.docker.com/) 
+on your system if needed.
+3. Login with the credentials created before, and configure the ETL pipeline.
+
+## Screenshots
+
+![Screenshot 1](doc/1.png)
+![Screenshot 2](doc/2.png)
+![Screenshot 3](doc/3.png)
+
