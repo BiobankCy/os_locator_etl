@@ -57,9 +57,13 @@ involvement are highly valued.
 
 ## Run
 
-1. Create a user for the ETL system. Run `python manage.py createsuperuser`
-and follow the instructions. Optionally, if you are missing Python dependencies, 
-run `pip install -r ./requirements.txt`.
+1. Create a user for the ETL system:
+   1. (Optional) If you are missing Python dependencies, 
+      run `pip install -r ./requirements.txt`
+   2. Run `mkdir data` to create a folder to store persistent data
+   3. Run `python manage.py migrate` to create the local DB
+   4. Run `python manage.py createsuperuser`
+   and follow the instructions 
 2. Run `./local_build_and_run.sh` (on a Linux-based OS). Install [Docker](https://www.docker.com/) 
 on your system if needed.
 3. Login with the credentials created before, and configure the ETL pipeline.
