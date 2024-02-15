@@ -1,11 +1,11 @@
-# OpenSpecimen Locator ETL
+# OpenSpecimen ETL to BBMRI-Locator FHIR resources
 
 > **WARNING**  
 > This project is currently under development. Please use with caution.
 
 ## Overview
 
-The OpenSpecimen Locator ETL is a flexible pipeline designed for 
+The OpenSpecimen(tm) BIMS Locator ETL is a flexible pipeline designed for 
 biobanks utilizing OpenSpecimen as their BIMS (Biobanking 
 Information Management System). Its primary purpose is to 
 streamline integration with the 
