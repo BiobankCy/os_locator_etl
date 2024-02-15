@@ -6,7 +6,7 @@
 ## Overview
 
 The OpenSpecimen Extract-Transform-Load (ETL) to BBMRI-Locator FHIR resources is a flexible pipeline designed for 
-biobanks utilizing OpenSpecimen as their BIMS (Biobanking 
+biobanks utilizing [OpenSpecimen](https://www.openspecimen.org/) as their BIMS (Biobanking 
 Information Management System). Its primary purpose is to 
 streamline integration with the 
 [BBMRI-ERIC Sample Locator](https://locator.bbmri-eric.eu/) 
