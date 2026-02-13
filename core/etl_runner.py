@@ -71,8 +71,10 @@ class EtlRunner:
             p.birthDate = datetime.datetime.strptime(
                 parsed_row.participant_date_of_birth, "%Y/%m/%d"
             ).date()
-            # TODO: Check for valid gender values
-            p.gender = parsed_row.participant_gender.lower()
+            gender = parsed_row.participant_gender.lower()
+            if gender not in ["male", "female", "other", "unknown"]:
+                gender = "other"
+            p.gender = gender
             res = self._make_request(resource_name="Patient", resource=p)
             added_ids.add(p.id)
             print(res)
